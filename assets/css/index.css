@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: titulo;
+    src: url(../css/Nexa-Heavy.ttf);
+}
+@font-face {
+    font-family: tituloo;
+    src: url(../css/LEMONMILK-Medium.otf);
+}
+#titulo{
+    width: 1250px;
+}
+body{
+    background-image: url(../imagens/fundo.jpg);
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 90px;
+    color: white;
+    font-family: tituloo;
+    background-color:rgb(73, 73, 73);
+    width: 1100px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+#comida{
+    width: 100vw;
+    height: 40vh;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+h2{
+    text-align: center;
+    font-size: 65px;
+    color: black;
+    background-color: white;
+    width: 800px;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    font-family: titulo;
+}
+.comidas{
+    width: 20vw;
+    height: 30vh;
+    transition: 2s;
+    border-radius: 20px;
+    border: solid 3px white;
+}
+#ponto{
+    width: 100vw;
+    min-height: 60vh;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pontos{
+    height: 40vh;
+    width: 30vw;
+    display: block;
+    margin: 10px auto;
+    border-radius: 20px;
+    transition: 2s;
+    border: solid 3px white;
+    background-color: white;
+}
+#perso{
+    width: 100vw;
+    min-height: 60vh;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.person{
+    height: 40vh;
+    width: 20vw;
+    display: block;
+    margin: 10px auto;
+    border-radius: 20px;
+    transition: 2s;
+    border: solid 3px white;
+}
+#animal{
+    width: 100vw;
+    min-height: 60vh;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.animais{
+    height: 40vh;
+    width: 30vw;
+    display: block;
+    margin: 10px auto;
+    border-radius: 20px;
+    transition: 2s; 
+    border: solid 3px white;   
+}
+#mercado{
+    width: 100vw;
+    min-height: 60vh;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mercados{
+    height: 40vh;
+    width: 30vw;
+    display: block;
+    margin: 10px auto;
+    border-radius: 20px;
+    transition: 2s;
+    border: solid 3px white;
+}
+img:hover{
+    border: solid 2px rgb(39, 19, 157);
+    transform: scale(1.1);
+}
+img:hover::after{
+    scale: 1.1;
+}
